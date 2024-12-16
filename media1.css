@@ -1,0 +1,338 @@
+
+@media (max-width:1280px) {
+  .slides{
+    height: 800px;
+ }
+.slides .img100{
+  height: 300px;
+  width: 500px;  
+  position: absolute;
+  top: -35px;
+ }
+.quot img{
+  margin-top: 335px;
+  margin-left: -470px;
+ }
+.quot p{
+ margin-top: 350px;
+ margin-left: -470px;
+ }
+
+ .arrow{
+  position: absolute; 
+  bottom: -1000px;
+
+
+}
+.arrow.left {
+ left: 2%;
+}
+.arrow.right {
+ left: 20%;
+}
+
+}
+
+
+
+@media (max-width:810px) {
+  .slides .img100{
+    width: 373px;
+    height: 245px; 
+  position: absolute;
+  top: -35px;
+  transform: translateX(-17%);
+
+ }
+  .quot img{
+    width: 50px;
+  }
+  .quot p{
+    font-size: 15px;
+    margin-top: 330px;
+  }
+  .arrow{
+    position: absolute; 
+    bottom: -970px;
+}
+.arrow.left {
+  left: 4%;
+ }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:710px) {
+
+  .img100{
+    transform: translateX(-22%);
+  }
+
+  .quot p{
+    position: absolute;
+    left: 495px;
+    font-size: 12.1px;
+}
+
+   .quot img{
+    position: absolute;
+     left:  495px;
+}
+#when{
+  position: absolute;
+  left:  495px;
+  top: 280px;
+  font-size: 15px
+}
+#whe{
+  position: absolute;
+  left:  495px;
+  top: 300px;
+  font-size: 12px;
+}
+.arrow{
+  position: absolute; 
+  bottom: -920px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1339px) and (max-width: 1800px) {
+  .center .left img{
+   width: 430px;
+  }
+
+  @keyframes left-move{
+  from{transform:translateX(0px);} 
+  to{transform: translateX(-600px);}
+ 
+  from{opacity: 100%;}
+  to{opacity: 0%;}
+}
+ 
+
+  .doortext{
+   font-size: 23px; 
+   font-weight: 500;
+ }
+
+  .center .left p{
+    font-size: 29px;
+    position:absolute;
+    top: 50px;
+    left: 120px;
+  }
+
+  .center .right p{
+    font-size: 16px;
+  }
+ 
+  .center .right1 img{
+   width: 230px;
+  }
+
+  .element img{
+    transform: translateX(-100%);
+    width: 250px;
+  }
+
+}
+
+@media (min-width:760px) and (max-width: 1339px) {
+  .center .left img{
+    width: 370px;
+    position: absolute;
+    top:-140px ;
+    left: 50px;
+  }
+
+  @keyframes left-move{
+   from{transform:translateX(-50px);} 
+   to{transform: translateX(-200px);}
+ 
+   from{opacity: 100%;}
+   to{opacity: 0%;}
+  }
+ 
+
+  .doortext{
+   font-size: 19px; 
+   font-weight: 500;
+  }
+
+
+  .center .left p{
+    font-size: 28px;
+    position:absolute;
+    top: -100px;
+    left: 170px;
+    width: 350px;
+  }
+
+
+  .center .right p{
+    font-size: 14px;
+    position: absolute;
+    left: 50px;
+    top: 370px;
+  }
+  .center .right1 {
+   width: 250px;
+   position: absolute;
+   right: 0px;
+   top:70px ;
+  
+  }
+
+
+  .element img{
+    transform: translateX(-300%);
+    width: 200px;
+    position: absolute;
+    top: 650px;
+    
+  }
+}
+
+/* @media (min-width:335px) and (max-width: 759px) {
+  .center .left img{
+    width: 300px;
+    position: absolute;
+    top:-290px ;
+    left: -220px;
+ 
+  }
+
+  @keyframes left-move{
+   from{transform:translateX(1750px);} 
+   to{transform: translateX(-180px);}
+ 
+   from{opacity: 0%;}
+   to{opacity:100%;}
+  }
+ 
+
+  .doortext{
+   font-size: 18px; 
+   font-weight: 500;
+  }
+
+
+  .center .left p{
+    font-size: 25px;
+    position:absolute;
+    top: -270px;
+   
+    animation: ef 1 both;
+    animation-timeline: view(40% 50%);
+    transition: all 1s ;
+  
+  }
+@keyframes ef {
+  from{transform:translateX(1750px);} 
+  to{transform: translateX(-180px);}
+
+  from{opacity: 100%;}
+  to{opacity:100%;}
+  
+}
+
+  .center .right p{
+    font-size: 15px;
+    position: absolute;
+    left: 10px;
+    top: 170px;
+   
+    text-align: center ;
+  }
+  .center .right1 {
+   width: 250px;
+   position: absolute;
+   right: 0px;
+   top:-80px ;
+   z-index: -1;
+
+  
+  }
+
+
+  .element img{
+    transform: translateX(-250%);
+    width: 200px;
+    position: absolute;
+    top: 650px;
+    
+  }
+} */
+
+
+@media (min-width:335px) and (max-width: 759px) {
+  .center .left img{
+    width: 300px;
+    position: absolute;
+    top: -260px;
+  }
+  
+  .center .left p{
+    font-size: 25px;
+    position:absolute;
+    top: -240px;
+    left: 380px;
+  
+    
+  }
+
+  @keyframes left-move{
+    from{transform:translateX(695px);} 
+    to{transform: translateX(-350px);}
+  
+    from{opacity: 0%;}
+    to{opacity: 100%;}
+   }
+  
+
+   .doortext{
+   font-size: 18px; 
+   font-weight: 500;
+  }
+
+
+
+  .center .right p{
+    font-size: 15px;
+    position: absolute;
+    left: 15px;
+    top: 200px;
+    text-wrap: pretty;
+    text-align: center ;
+  }
+  .center .right1 img{
+   width: 250px;
+  }
+
+
+  .element img{
+    transform: translateX(15%);
+    width: 200px;
+    position: absolute;
+    left: 100px;
+    top: 650px;
+  }
+  .element{
+   margin-top: 60px;
+  }
+}
